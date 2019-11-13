@@ -51,7 +51,7 @@ switch (//Some expression) {
  break;
  }
  ```
-    
+ **break** keyword breaks out of the `switch` block; should put in each `case` statement.
 
 
 | Code | | Output |
