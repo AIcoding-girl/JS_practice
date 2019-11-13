@@ -54,6 +54,15 @@ switch (//Some expression) {
  The **break** keyword breaks out of the `switch` block; should put in each `case` statement.
  The **default** keyword specifies the code to run if there is no `case` match.
 
+### For loop
+```javascript
+for ( var i = 0; i <= 5; i++) {
+  console.log(i);
+}
+```
+Statement1 is executed before the loop; sets a variable before the loop starts (var i = 0).
+Statement2 defines the condition for running the loop (i must be less or equal to 5).
+Statement3 increases a value (i++) each time after the loop has been executed.
 
 | Code | | Output |
 | --- | --- | --- |
