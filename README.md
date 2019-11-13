@@ -8,7 +8,7 @@
 > JavaScript `strings` are used for storing and manipulating text
 
 Backslash escape
-![alt text] (https://miro.medium.com/max/1518/0*EROX6jTOAMi7ITwn.jpg)
+![alt text](https://miro.medium.com/max/1518/0*EROX6jTOAMi7ITwn.jpg)
 
 | Code | | Output |
 | --- | --- | --- |
