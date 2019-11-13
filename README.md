@@ -94,6 +94,10 @@ The **alert** function takes a single parameter, which is the text displayed in 
 ```javascript
 alert('Do you really want to close this page?')
 ```
+To display **line breaks** within a popup box, use a *backslash followed by the character n*.
+```javascript
+alert('Hello!\nHow are you?')
+```
 
 | Code | | Output |
 | --- | --- | --- |
