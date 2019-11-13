@@ -10,7 +10,7 @@
 Backslash escape
 ![alt text](https://miro.medium.com/max/1518/0*EROX6jTOAMi7ITwn.jpg)
 
-The **Boolean** value of 0(zero), `null`, `undefined`, `empty string` is **false**. Everything with a real value is **true**.
+<p> The **Boolean** value of 0(zero), `null`, `undefined`, `empty string` is **false**. Everything with a real value is **true**. </p>
 
 | Code | | Output |
 | --- | --- | --- |
