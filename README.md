@@ -51,7 +51,8 @@ switch (//Some expression) {
  break;
  }
  ```
- **break** keyword breaks out of the `switch` block; should put in each `case` statement.
+ The **break** keyword breaks out of the `switch` block; should put in each `case` statement.
+ The **default** keyword specifies the code to run if there is no `case` match.
 
 
 | Code | | Output |
