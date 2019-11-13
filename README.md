@@ -18,12 +18,41 @@ The **Boolean** value of 0(zero), `null`, `undefined`, `empty string` is **false
 ### Logical operators
 ![alt text](https://i.pinimg.com/originals/44/67/a1/4467a199ba567016121beafdb4c5c5e4.png)
 
-Ternary operator
+### Ternary operator
 ``` javascript
 variable = (condition) ? (value1):(value2)
 
 var isAdult = (age < 18) ? "Too young": "Old enough";
 ```
+### Switch statement
+```javascript
+switch (//Some expression) {
+  case 'option1':
+    // do something;
+    break;
+  case 'option2':
+    // do something else;
+    break;
+  default:
+    // do yet another thing;
+    break;
+ }
+ ```
+ ```javascript
+ switch (userInput) {
+ case 'Hi!':
+ alert('Hello!');
+ break;
+ case 'Bye!':
+ alert('Goodbye!');
+ break;
+ default:
+ alert('I am good, thanks.');
+ break;
+ }
+ ```
+    
+
 
 | Code | | Output |
 | --- | --- | --- |
