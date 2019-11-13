@@ -15,6 +15,16 @@ The **Boolean** value of 0(zero), `null`, `undefined`, `empty string` is **false
 ### Comparison operators
 ![alt text](https://apprize.info/javascript/20lessons/20lessons.files/image041.jpg)
 
+### Logical operators
+![alt text](https://i.pinimg.com/originals/44/67/a1/4467a199ba567016121beafdb4c5c5e4.png)
+
+Ternary operator
+``` javascript
+variable = (condition) ? (value1):(value2)
+
+var isAdult = (age < 18) ? "Too young": "Old enough";
+```
+
 | Code | | Output |
 | --- | --- | --- |
 | \' | | single quote |
