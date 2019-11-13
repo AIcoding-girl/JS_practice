@@ -88,7 +88,7 @@ A function can have an optional **return** statement. It is used to return a val
 
 JavaScript offers three types of popup boxes - **alert**, **prompt**, and **confirm** boxes.
 
-An **alert** box is used when you want to ensure that information gets through to the user. When an alert box pops up, the user must click OK to proceed.
+An `alert` box is used when you want to ensure that information gets through to the user. When an alert box pops up, the user must click OK to proceed.
 
 The **alert** function takes a single parameter, which is the text displayed in the popup box.
 ```javascript
@@ -98,6 +98,21 @@ To display **line breaks** within a popup box, use a *backslash followed by the 
 ```javascript
 alert('Hello!\nHow are you?')
 ```
+## The Prompt Box
+
+A `prompt` box is often used to have the user input a value before entering a page. When a prompt box pops up, the user will have to click either *OK* or *Cancel* to proceed after entering the input value.
+
+If the user clicks OK, the box **returns the input value**. If the user clicks Cancel, the box returns **null**.
+
+The `prompt() method` takes **two parameters**. 
+- The first is the label, which you want to display in the text box.
+- The second is a default string to display in the text box (optional).
+
+```javascript
+var userName = prompt('Please enter your name');
+alert(userName);
+```
+
 
 | Code | | Output |
 | --- | --- | --- |
