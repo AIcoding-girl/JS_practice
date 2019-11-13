@@ -1,11 +1,11 @@
 # JavaScript practice
 ## Learning JS in SoloLearn
 
--> x = y will assign the value of y to x
+> x = y will assign the value of y to x
 
--> a variable declared without a value will have the value **undefined**
+> a variable declared without a value will have the value **undefined**
 
--> JavaScript `strings` are used for storing and manipulating text
+> JavaScript `strings` are used for storing and manipulating text
 
 | Code | | Output |
 | --- | --- | --- |
