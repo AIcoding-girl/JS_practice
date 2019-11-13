@@ -75,6 +75,9 @@ The **break** statement jumps out of a loop and continues executing the code aft
 
 The **continue** statement breaks only one iteration in the loop and continues with the next iteration.
 
+### JavaScript Keywords and Reserved Words 
+![alt text](https://i.pinimg.com/originals/2e/dc/5c/2edc5c169bd1117e93bb327a2b318f60.jpg)
+
 | Code | | Output |
 | --- | --- | --- |
 | \' | | single quote |
