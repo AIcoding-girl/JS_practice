@@ -78,6 +78,23 @@ The **continue** statement breaks only one iteration in the loop and continues w
 ### JavaScript Keywords and Reserved Words 
 ![alt text](https://i.pinimg.com/originals/2e/dc/5c/2edc5c169bd1117e93bb327a2b318f60.jpg)
 
+### Functions
+
+If a function is called with missing arguments (fewer than declared), the missing values are set to **undefined**, which indicates that a variable has not been assigned a value.
+
+A function can have an optional **return** statement. It is used to return a value from the function. This statement is useful when making caluculations that require a result.
+
+## The Alert Box
+
+JavaScript offers three types of popup boxes - **alert**, **prompt**, and **confirm** boxes.
+
+An **alert** box is used when you want to ensure that information gets through to the user. When an alert box pops up, the user must click OK to proceed.
+
+The **alert** function takes a single parameter, which is the text displayed in the popup box.
+```javascript
+alert('Do you really want to close this page?')
+```
+
 | Code | | Output |
 | --- | --- | --- |
 | \' | | single quote |
