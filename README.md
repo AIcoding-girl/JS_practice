@@ -60,9 +60,17 @@ for ( var i = 0; i <= 5; i++) {
   console.log(i);
 }
 ```
-Statement1 is executed before the loop; sets a variable before the loop starts (var i = 0).
-Statement2 defines the condition for running the loop (i must be less or equal to 5).
-Statement3 increases a value (i++) each time after the loop has been executed.
+**Statement1** is executed before the loop; sets a variable before the loop starts (var i = 0).
+
+**Statement2** defines the condition for running the loop (i must be less or equal to 5).
+
+**Statement3** increases a value (i++) each time after the loop has been executed.
+
+### While loop
+
+The **while** loop repeats through a block of code, as long as a specified condition is **true**. Make sure that the condition in a while loop eventually becomes **false**. 
+
+The **break** statement jumps out of a loop and continues executing the code after the loop.
 
 | Code | | Output |
 | --- | --- | --- |
