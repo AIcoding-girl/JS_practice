@@ -9,4 +9,4 @@
 
 | Code | | Output |
 | --- | --- | --- |
-| (escape character)' | | single quote |
+| \' | | single quote |
