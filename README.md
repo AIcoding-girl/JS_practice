@@ -70,7 +70,10 @@ for ( var i = 0; i <= 5; i++) {
 
 The **while** loop repeats through a block of code, as long as a specified condition is **true**. Make sure that the condition in a while loop eventually becomes **false**. 
 
+#### Break and continue
 The **break** statement jumps out of a loop and continues executing the code after the loop.
+
+The **continue** statement breaks only one iteration in the loop and continues with the next iteration.
 
 | Code | | Output |
 | --- | --- | --- |
