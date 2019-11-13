@@ -125,6 +125,7 @@ alert('Thanks for visiting');
 } else {
 alert('Thanks for staying with us!');
 }
+```
 
 | Code | | Output |
 | --- | --- | --- |
