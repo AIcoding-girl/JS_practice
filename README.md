@@ -84,7 +84,7 @@ If a function is called with missing arguments (fewer than declared), the missin
 
 A function can have an optional **return** statement. It is used to return a value from the function. This statement is useful when making caluculations that require a result.
 
-## The Alert Box
+#### The Alert Box
 
 JavaScript offers three types of popup boxes - **alert**, **prompt**, and **confirm** boxes.
 
@@ -98,7 +98,7 @@ To display **line breaks** within a popup box, use a *backslash followed by the 
 ```javascript
 alert('Hello!\nHow are you?')
 ```
-## The Prompt Box
+#### The Prompt Box
 
 A `prompt` box is often used to have the user input a value before entering a page. When a prompt box pops up, the user will have to click either *OK* or *Cancel* to proceed after entering the input value.
 
@@ -112,7 +112,7 @@ The `prompt() method` takes **two parameters**.
 var userName = prompt('Please enter your name');
 alert(userName);
 ```
-## The Confirm Box
+#### The Confirm Box
 
 A `confirm` box is often used to have the user verify or accept something. When a confirm box pops up, the user must click either *OK* or *Cancel* to proceed.
 
@@ -125,6 +125,30 @@ alert('Thanks for visiting');
 } else {
 alert('Thanks for staying with us!');
 }
+```
+
+### Objects
+JavaScript variables are containers for data value. **Objects** are variables too but they can contain many values (**name:value** pairs called **properties**). An object **method()** is a property that contains a function definition.
+
+```javascript
+objectName.methodName();
+```
+
+#### Creating object
+
+Object contructor function, **new** keyword to create new objects of the same type.
+```
+function person (name, age) {
+    this.name = name;
+    this.age = age;
+ }
+ var john = new person('John', 25);
+ var james = new person('James', 21);
+ ```
+ Use the object **initializer** syntax to create single objects.
+```javascript
+var john = {name: 'John', age: 25};
+var james = {name: 'James', age: 21};
 ```
 
 | Code | | Output |
