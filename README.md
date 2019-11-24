@@ -139,8 +139,8 @@ objectName.methodName();
 Object contructor function, **new** keyword to create new objects of the same type.
 ```
 function person (name, age) {
-    this.name = name;
-    this.age = age;
+this.name = name;
+this.age = age;
  }
  var john = new person('John', 25);
  var james = new person('James', 21);
@@ -150,6 +150,15 @@ function person (name, age) {
 var john = {name: 'John', age: 25};
 var james = {name: 'James', age: 21};
 ```
+### Arrays
+Arrays store multiple values in a single variable.
+```javascript
+var courses = ['HTML', 'CSS', 'JS'];
+console.log(courses.length);
+```
+An array's **length** property returns the number of it's elements. The length property is always one more that the highest array index. If the array is empty, the length property returns **0**.
+
+It is better to use an `object` when you want the index to be a `string`(text). Use an `array` when you want the index to be a `number`.
 
 | Code | | Output |
 | --- | --- | --- |
